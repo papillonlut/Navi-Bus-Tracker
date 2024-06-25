@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './tracker.component.html',
   styleUrl: './tracker.component.css'
 })
-export class TrackerComponent {
-
-}
+export class TrackerComponent {}
