@@ -22,13 +22,15 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/img/logo.png",
+              "src/img/minecraft_title.png",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
