@@ -1,33 +1,56 @@
-from google.transit import gtfs_realtime_pb2
 import requests
-import time
 import json
+import time
 
-url = 'https://proxy.transport.data.gouv.fr/resource/divia-dijon-gtfs-rt-vehicle-position'
+url = "https://dijon.bus-tracker.fr/api/vehicles"
 
-nbr = 0
+while True:
+    # Effectuer la requête GET
+    response = requests.get(url)
 
-feed = gtfs_realtime_pb2.FeedMessage()
-
-response = requests.get(url)
-
-feed.ParseFromString(response.content)
-
-with open(f"history.json", "w") as f:
-    vehicles = []
-    for entity in feed.entity:
-        if entity.HasField('vehicle'):
-            vehicle_info = {
-                'trip': {
-                    'trip_id': entity.vehicle.trip.trip_id,
-                    'latitude': entity.vehicle.position.latitude,
-                    'longitude': entity.vehicle.position.longitude,
-                    'speed': entity.vehicle.position.speed,
-                    'id': entity.vehicle.vehicle.id,
+    # Vérifier si la requête a réussi (code 200)
+    if response.status_code == 200:
+        # Récupérer les données au format JSON
+        data = response.json()
+        
+        # Liste pour stocker les informations à écrire dans le fichier JSON
+        vehicles_data = []
+        
+        # Parcourir chaque véhicule dans la liste de données
+        for vehicle in data:
+            try:
+                # Accès aux informations spécifiques de chaque véhicule
+                vehicle_id = vehicle['vehicle']['id']
+                latitude = vehicle['vehicle']['position']['latitude']
+                longitude = vehicle['vehicle']['position']['longitude']
+                headsign = vehicle['trip']['headsign']
+                timestamp = vehicle['timestamp']
+                
+                # Créer un dictionnaire pour stocker les informations du véhicule
+                vehicle_info = {
+                    "id": vehicle_id,
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "headsign": headsign,
+                    "timestamp": timestamp
                 }
-            }
-            vehicles.append(vehicle_info)
-
-        nbr += 1
+                
+                # Ajouter le dictionnaire à la liste des données des véhicules
+                vehicles_data.append(vehicle_info)
+            
+            except KeyError as e:
+                print(f"Clé manquante dans la structure JSON : {e}")
+            except Exception as e:
+                print(f"Une erreur s'est produite : {e}")
+        
+        # Écrire les données dans le fichier JSON
+        with open("history.json", "w", encoding="utf-8") as json_file:
+            json.dump(vehicles_data, json_file, indent=4)
+        
+        print("Données écrites avec succès dans history.json")
     
-    json.dump(vehicles, f, indent=2)
+    else:
+        print(f"Erreur {response.status_code} lors de la requête")
+    
+    # Attendre 10 secondes avant la prochaine requête
+    time.sleep(10)

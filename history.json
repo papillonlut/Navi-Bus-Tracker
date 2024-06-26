@@ -1,992 +1,674 @@
 [
-  {
-    "trip": {
-      "trip_id": "11-T2-5-1-190125",
-      "latitude": 47.301109313964844,
-      "longitude": 5.021116256713867,
-      "speed": 0.0,
-      "id": "1001"
+    {
+        "id": "1003",
+        "latitude": 47.313621520996094,
+        "longitude": 5.094377517700195,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1005",
+        "latitude": 47.31725311279297,
+        "longitude": 5.031245231628418,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1008",
+        "latitude": 47.323387145996094,
+        "longitude": 5.033407688140869,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1010",
+        "latitude": 47.33796691894531,
+        "longitude": 5.044471740722656,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1011",
+        "latitude": 47.3599739074707,
+        "longitude": 5.054236888885498,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1013",
+        "latitude": 47.322845458984375,
+        "longitude": 5.065255165100098,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1016",
+        "latitude": 47.30101776123047,
+        "longitude": 5.021059036254883,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1017",
+        "latitude": 47.313873291015625,
+        "longitude": 5.110100269317627,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719390159
+    },
+    {
+        "id": "1019",
+        "latitude": 47.326602935791016,
+        "longitude": 5.0459208488464355,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1021",
+        "latitude": 47.30095291137695,
+        "longitude": 5.020910263061523,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1022",
+        "latitude": 47.29457092285156,
+        "longitude": 5.006500244140625,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719390109
+    },
+    {
+        "id": "1023",
+        "latitude": 47.317386627197266,
+        "longitude": 5.0314106941223145,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1024",
+        "latitude": 47.31870651245117,
+        "longitude": 5.068246841430664,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1025",
+        "latitude": 47.32618713378906,
+        "longitude": 5.042630195617676,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1026",
+        "latitude": 47.32345962524414,
+        "longitude": 5.033384799957275,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1027",
+        "latitude": 47.35492706298828,
+        "longitude": 5.04884147644043,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1028",
+        "latitude": 47.356605529785156,
+        "longitude": 5.056900501251221,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "1032",
+        "latitude": 47.32862854003906,
+        "longitude": 5.0517425537109375,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2312",
+        "latitude": 47.318782806396484,
+        "longitude": 5.005671501159668,
+        "headsign": "Marmuzots",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2401",
+        "latitude": 47.31882858276367,
+        "longitude": 5.00139856338501,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2402",
+        "latitude": 47.32426071166992,
+        "longitude": 5.034444808959961,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2403",
+        "latitude": 47.33963394165039,
+        "longitude": 5.067233085632324,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390169
+    },
+    {
+        "id": "2404",
+        "latitude": 47.320945739746094,
+        "longitude": 5.009631156921387,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2410",
+        "latitude": 47.33905029296875,
+        "longitude": 5.064507007598877,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2411",
+        "latitude": 47.3311653137207,
+        "longitude": 5.065322399139404,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2412",
+        "latitude": 47.3360595703125,
+        "longitude": 5.0603556632995605,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2413",
+        "latitude": 47.323150634765625,
+        "longitude": 4.9982733726501465,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719390139
+    },
+    {
+        "id": "2416",
+        "latitude": 47.324371337890625,
+        "longitude": 5.03449010848999,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2417",
+        "latitude": 47.31306076049805,
+        "longitude": 5.050448894500732,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2418",
+        "latitude": 47.310546875,
+        "longitude": 5.03871488571167,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2419",
+        "latitude": 47.31764602661133,
+        "longitude": 5.031424045562744,
+        "headsign": "MARSANNAY Portes du Sud",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2422",
+        "latitude": 47.27899169921875,
+        "longitude": 5.019393444061279,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719390049
+    },
+    {
+        "id": "2424",
+        "latitude": 47.33055114746094,
+        "longitude": 5.023006439208984,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2425",
+        "latitude": 47.31821060180664,
+        "longitude": 5.0314788818359375,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2428",
+        "latitude": 47.340431213378906,
+        "longitude": 4.993073463439941,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2430",
+        "latitude": 47.31099319458008,
+        "longitude": 5.073153495788574,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719390159
+    },
+    {
+        "id": "2431",
+        "latitude": 47.316097259521484,
+        "longitude": 5.033714771270752,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2432",
+        "latitude": 47.33681106567383,
+        "longitude": 5.012265682220459,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2433",
+        "latitude": 47.29546356201172,
+        "longitude": 5.003475189208984,
+        "headsign": "MARSANNAY Portes du Sud",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2436",
+        "latitude": 47.31288528442383,
+        "longitude": 5.060974597930908,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2437",
+        "latitude": 47.313053131103516,
+        "longitude": 5.01406717300415,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2439",
+        "latitude": 47.283077239990234,
+        "longitude": 5.057339668273926,
+        "headsign": "LONGVIC",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2440",
+        "latitude": 47.309024810791016,
+        "longitude": 5.04591703414917,
+        "headsign": "LONGVIC",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2441",
+        "latitude": 47.34318542480469,
+        "longitude": 5.058414936065674,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2445",
+        "latitude": 47.29969024658203,
+        "longitude": 5.052151679992676,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2448",
+        "latitude": 47.32112503051758,
+        "longitude": 5.0443854331970215,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2449",
+        "latitude": 47.29938888549805,
+        "longitude": 5.056273460388184,
+        "headsign": "ST-APOLLINAIRE Val Sully",
+        "timestamp": 1719390219
+    },
+    {
+        "id": "2450",
+        "latitude": 47.32865524291992,
+        "longitude": 5.069615840911865,
+        "headsign": "Chicago",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2451",
+        "latitude": 47.32339096069336,
+        "longitude": 5.069598197937012,
+        "headsign": "ST-APOLLINAIRE Val Sully",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2452",
+        "latitude": 47.31563186645508,
+        "longitude": 5.043710231781006,
+        "headsign": "Chicago",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2453",
+        "latitude": 47.31291580200195,
+        "longitude": 5.050851821899414,
+        "headsign": "ST-APOLLINAIRE Val Sully",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2455",
+        "latitude": 47.32633590698242,
+        "longitude": 5.04633092880249,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2456",
+        "latitude": 47.305118560791016,
+        "longitude": 5.052043914794922,
+        "headsign": "Marmuzots",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2458",
+        "latitude": 47.33931350708008,
+        "longitude": 5.053093910217285,
+        "headsign": "LONGVIC",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2459",
+        "latitude": 47.32581329345703,
+        "longitude": 5.073746681213379,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2460",
+        "latitude": 47.32687759399414,
+        "longitude": 5.072543144226074,
+        "headsign": "Marmuzots",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2502",
+        "latitude": 47.295345306396484,
+        "longitude": 5.126484394073486,
+        "headsign": "QUETIGNY Europe",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "2505",
+        "latitude": 47.31877899169922,
+        "longitude": 5.109388828277588,
+        "headsign": "QUETIGNY Europe",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2507",
+        "latitude": 47.3084716796875,
+        "longitude": 5.109766960144043,
+        "headsign": "CHEVIGNY",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "2508",
+        "latitude": 47.33505630493164,
+        "longitude": 5.025125980377197,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2604",
+        "latitude": 47.33411407470703,
+        "longitude": 5.0187764167785645,
+        "headsign": "Marmuzots",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "2606",
+        "latitude": 47.32291030883789,
+        "longitude": 4.997713088989258,
+        "headsign": "Marmuzots",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "3501",
+        "latitude": 47.31322479248047,
+        "longitude": 5.097175598144531,
+        "headsign": "QUETIGNY All\u00e9es Cavali\u00e8res",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3503",
+        "latitude": 47.31505584716797,
+        "longitude": 5.105846881866455,
+        "headsign": "NEUILLY-CRIMOLOIS",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "3604",
+        "latitude": 47.285125732421875,
+        "longitude": 5.006755828857422,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3606",
+        "latitude": 47.33557891845703,
+        "longitude": 5.032540321350098,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3608",
+        "latitude": 47.35116195678711,
+        "longitude": 5.029989242553711,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3609",
+        "latitude": 47.31336212158203,
+        "longitude": 5.0135931968688965,
+        "headsign": "FONTAINE Village",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3611",
+        "latitude": 47.34088134765625,
+        "longitude": 5.017620086669922,
+        "headsign": "Motte Giron",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3612",
+        "latitude": 47.339813232421875,
+        "longitude": 5.017221927642822,
+        "headsign": "FONTAINE Village",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3615",
+        "latitude": 47.313941955566406,
+        "longitude": 5.013939380645752,
+        "headsign": "Motte Giron",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3616",
+        "latitude": 47.34659194946289,
+        "longitude": 4.964913368225098,
+        "headsign": "Parc de la Colombi\u00e8re",
+        "timestamp": 1719390099
+    },
+    {
+        "id": "3618",
+        "latitude": 47.26747131347656,
+        "longitude": 4.989713191986084,
+        "headsign": "Charet",
+        "timestamp": 1719390229
+    },
+    {
+        "id": "3620",
+        "latitude": 47.34430694580078,
+        "longitude": 5.036807537078857,
+        "headsign": "AHUY",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3622",
+        "latitude": 47.28667068481445,
+        "longitude": 5.040445327758789,
+        "headsign": "Darcy",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3627",
+        "latitude": 47.36497497558594,
+        "longitude": 5.027758598327637,
+        "headsign": "TALANT Citadelle",
+        "timestamp": 1719390249
+    },
+    {
+        "id": "3628",
+        "latitude": 47.3182373046875,
+        "longitude": 5.031480312347412,
+        "headsign": "LONGVIC Carm\u00e9lites",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3629",
+        "latitude": 47.2985954284668,
+        "longitude": 5.0223002433776855,
+        "headsign": "Carraz",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3630",
+        "latitude": 47.338558197021484,
+        "longitude": 4.991220951080322,
+        "headsign": "AHUY",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3632",
+        "latitude": 47.305850982666016,
+        "longitude": 5.0218706130981445,
+        "headsign": "Charet",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3634",
+        "latitude": 47.32918167114258,
+        "longitude": 5.010507106781006,
+        "headsign": "TALANT Citadelle",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "3635",
+        "latitude": 47.32380676269531,
+        "longitude": 5.032502174377441,
+        "headsign": "PLOMBIERES",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "3638",
+        "latitude": 47.322566986083984,
+        "longitude": 5.030374526977539,
+        "headsign": "Parc de la Colombi\u00e8re",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "3641",
+        "latitude": 47.323951721191406,
+        "longitude": 5.031713485717773,
+        "headsign": "LONGVIC Carm\u00e9lites",
+        "timestamp": 1719390219
+    },
+    {
+        "id": "3643",
+        "latitude": 47.28649139404297,
+        "longitude": 5.06343936920166,
+        "headsign": "LONGVIC Carm\u00e9lites",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "3703",
+        "latitude": 47.31258010864258,
+        "longitude": 5.009226322174072,
+        "headsign": "Montagne de Larrey",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "4109",
+        "latitude": 47.32787322998047,
+        "longitude": 5.08539342880249,
+        "headsign": "Gr\u00e9silles Trimolet",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "4110",
+        "latitude": 47.2967414855957,
+        "longitude": 5.012615203857422,
+        "headsign": "Les Ateliers",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "4111",
+        "latitude": 47.300418853759766,
+        "longitude": 5.021068572998047,
+        "headsign": "CHENOVE C. Cial",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "4212",
+        "latitude": 47.32611083984375,
+        "longitude": 5.043473243713379,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719390289
+    },
+    {
+        "id": "4601",
+        "latitude": 47.32224655151367,
+        "longitude": 5.041728973388672,
+        "headsign": "R\u00e9publique",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "4603",
+        "latitude": 47.32619094848633,
+        "longitude": 5.043473243713379,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719390269
+    },
+    {
+        "id": "4701",
+        "latitude": 47.31267166137695,
+        "longitude": 5.0097336769104,
+        "headsign": "Sainte-Anne",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "4702",
+        "latitude": 47.32721710205078,
+        "longitude": 5.044085502624512,
+        "headsign": "R\u00e9publique",
+        "timestamp": 1719390279
+    },
+    {
+        "id": "4703",
+        "latitude": 47.354671478271484,
+        "longitude": 5.051553249359131,
+        "headsign": "R\u00e9publique",
+        "timestamp": 1719390149
+    },
+    {
+        "id": "4707",
+        "latitude": 47.33417892456055,
+        "longitude": 5.018223762512207,
+        "headsign": "HAUTEVILLE",
+        "timestamp": 1719390279
     }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-10-1-184000",
-      "latitude": 47.312320709228516,
-      "longitude": 5.103852272033691,
-      "speed": 2.0,
-      "id": "1002"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-5-1-183417",
-      "latitude": 47.32335662841797,
-      "longitude": 5.028270244598389,
-      "speed": 11.0,
-      "id": "1003"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-8-1-183458",
-      "latitude": 47.30110549926758,
-      "longitude": 5.018192291259766,
-      "speed": 26.0,
-      "id": "1005"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-10-1-185948",
-      "latitude": 47.356082916259766,
-      "longitude": 5.053986072540283,
-      "speed": 20.0,
-      "id": "1008"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-3-1-183801",
-      "latitude": 47.356590270996094,
-      "longitude": 5.0567803382873535,
-      "speed": 23.0,
-      "id": "1010"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-6-1-184615",
-      "latitude": 47.32679748535156,
-      "longitude": 5.044209957122803,
-      "speed": 6.0,
-      "id": "1011"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-1-1-190945",
-      "latitude": 47.29457092285156,
-      "longitude": 5.006500244140625,
-      "speed": 0.0,
-      "id": "1012"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-8-1-190949",
-      "latitude": 47.31389617919922,
-      "longitude": 5.110167503356934,
-      "speed": 0.0,
-      "id": "1013"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-11-1-185335",
-      "latitude": 47.31511688232422,
-      "longitude": 5.02953577041626,
-      "speed": 5.0,
-      "id": "1015"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-9-1-190758",
-      "latitude": 47.36556625366211,
-      "longitude": 5.046785354614258,
-      "speed": 0.0,
-      "id": "1016"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-9-1-184658",
-      "latitude": 47.32889175415039,
-      "longitude": 5.0569586753845215,
-      "speed": 11.0,
-      "id": "1017"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-6-1-184650",
-      "latitude": 47.31459045410156,
-      "longitude": 5.0671892166137695,
-      "speed": 6.0,
-      "id": "1019"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-7-1-184253",
-      "latitude": 47.32353973388672,
-      "longitude": 5.030211925506592,
-      "speed": 0.0,
-      "id": "1020"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-2-1-185023",
-      "latitude": 47.3265495300293,
-      "longitude": 5.043985366821289,
-      "speed": 14.0,
-      "id": "1021"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T2-4-1-183016",
-      "latitude": 47.366058349609375,
-      "longitude": 5.048399925231934,
-      "speed": 13.0,
-      "id": "1022"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-1-1-190432",
-      "latitude": 47.32341766357422,
-      "longitude": 5.029835224151611,
-      "speed": 7.0,
-      "id": "1023"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-4-1-185951",
-      "latitude": 47.315242767333984,
-      "longitude": 5.080020904541016,
-      "speed": 34.0,
-      "id": "1024"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-3-1-185153",
-      "latitude": 47.32018280029297,
-      "longitude": 5.06715726852417,
-      "speed": 0.0,
-      "id": "1025"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-7-1-185500",
-      "latitude": 47.3288688659668,
-      "longitude": 5.064807891845703,
-      "speed": 12.0,
-      "id": "1027"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-T1-2-1-184023",
-      "latitude": 47.323612213134766,
-      "longitude": 5.0338029861450195,
-      "speed": 0.0,
-      "id": "1032"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CO-8-1-190000",
-      "latitude": 47.335121154785156,
-      "longitude": 5.025354385375977,
-      "speed": 11.0,
-      "id": "2326"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-1-1-185000",
-      "latitude": 47.327083587646484,
-      "longitude": 5.0447540283203125,
-      "speed": 0.0,
-      "id": "2402"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-2-1-190000",
-      "latitude": 47.31855773925781,
-      "longitude": 5.00556755065918,
-      "speed": 0.0,
-      "id": "2403"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-3-1-182400",
-      "latitude": 47.34019470214844,
-      "longitude": 5.069279193878174,
-      "speed": 15.0,
-      "id": "2404"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-12-1-183200",
-      "latitude": 47.335330963134766,
-      "longitude": 5.0647807121276855,
-      "speed": 32.0,
-      "id": "2407"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-4-1-182500",
-      "latitude": 47.31963348388672,
-      "longitude": 5.00051212310791,
-      "speed": 20.0,
-      "id": "2410"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-6-1-190400",
-      "latitude": 47.339149475097656,
-      "longitude": 5.064234256744385,
-      "speed": 15.0,
-      "id": "2412"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-7-1-191600",
-      "latitude": 47.3397102355957,
-      "longitude": 5.067233085632324,
-      "speed": 0.0,
-      "id": "2415"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-8-1-183800",
-      "latitude": 47.322635650634766,
-      "longitude": 5.024871826171875,
-      "speed": 9.0,
-      "id": "2416"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L3-9-1-185000",
-      "latitude": 47.32220458984375,
-      "longitude": 5.02966833114624,
-      "speed": 10.0,
-      "id": "2417"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L4-1-1-185000",
-      "latitude": 47.298133850097656,
-      "longitude": 5.0052361488342285,
-      "speed": 34.0,
-      "id": "2419"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L4-4-1-185700",
-      "latitude": 47.31447982788086,
-      "longitude": 5.021443843841553,
-      "speed": 25.0,
-      "id": "2424"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-4-1-182600",
-      "latitude": 47.28995895385742,
-      "longitude": 5.059607982635498,
-      "speed": 22.0,
-      "id": "2427"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-2-1-191600",
-      "latitude": 47.34035110473633,
-      "longitude": 4.992753505706787,
-      "speed": 0.0,
-      "id": "2428"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-3-1-184800",
-      "latitude": 47.322635650634766,
-      "longitude": 5.03092098236084,
-      "speed": 9.0,
-      "id": "2430"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-4-1-185400",
-      "latitude": 47.33086395263672,
-      "longitude": 5.0223469734191895,
-      "speed": 20.0,
-      "id": "2431"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-5-1-183500",
-      "latitude": 47.31334686279297,
-      "longitude": 5.054645538330078,
-      "speed": 31.0,
-      "id": "2432"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.29783248901367,
-      "longitude": 5.025424003601074,
-      "speed": 50.0,
-      "id": "2433"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-7-1-190400",
-      "latitude": 47.33918762207031,
-      "longitude": 4.990060329437256,
-      "speed": 25.0,
-      "id": "2435"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-9-1-184400",
-      "latitude": 47.3167610168457,
-      "longitude": 5.030651569366455,
-      "speed": 0.0,
-      "id": "2437"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-2-1-184000",
-      "latitude": 47.3211784362793,
-      "longitude": 5.043792724609375,
-      "speed": 13.0,
-      "id": "2439"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-5-1-183000",
-      "latitude": 47.34010314941406,
-      "longitude": 5.0532660484313965,
-      "speed": 13.0,
-      "id": "2440"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-10-1-183800",
-      "latitude": 47.332435607910156,
-      "longitude": 5.01834774017334,
-      "speed": 2.0,
-      "id": "2444"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-11-1-190100",
-      "latitude": 47.31296157836914,
-      "longitude": 5.060382843017578,
-      "speed": 11.0,
-      "id": "2445"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-7-1-185300",
-      "latitude": 47.31669616699219,
-      "longitude": 5.043684959411621,
-      "speed": 6.0,
-      "id": "2447"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-8-1-185400",
-      "latitude": 47.33335876464844,
-      "longitude": 5.052208423614502,
-      "speed": 11.0,
-      "id": "2448"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-9-1-190500",
-      "latitude": 47.2823486328125,
-      "longitude": 5.058913230895996,
-      "speed": 0.0,
-      "id": "2449"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-10-1-184200",
-      "latitude": 47.32467269897461,
-      "longitude": 5.048152923583984,
-      "speed": 28.0,
-      "id": "2450"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L8-2-1-185500",
-      "latitude": 47.32271194458008,
-      "longitude": 5.069537162780762,
-      "speed": 26.0,
-      "id": "2452"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L8-3-1-183200",
-      "latitude": 47.33191680908203,
-      "longitude": 5.088106155395508,
-      "speed": 4.0,
-      "id": "2453"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L8-4-1-184000",
-      "latitude": 47.32045364379883,
-      "longitude": 5.043028354644775,
-      "speed": 8.0,
-      "id": "2454"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.323970794677734,
-      "longitude": 5.078179359436035,
-      "speed": 0.0,
-      "id": "2456"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L8-7-1-185700",
-      "latitude": 47.31614303588867,
-      "longitude": 5.044437885284424,
-      "speed": 22.0,
-      "id": "2457"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CO-6-1-182600",
-      "latitude": 47.31394958496094,
-      "longitude": 5.018796920776367,
-      "speed": 26.0,
-      "id": "2459"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L5-1-1-182700",
-      "latitude": 47.311492919921875,
-      "longitude": 5.073449611663818,
-      "speed": 9.0,
-      "id": "2460"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L6-1-1-190500",
-      "latitude": 47.35454559326172,
-      "longitude": 5.051815509796143,
-      "speed": 10.0,
-      "id": "2461"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.32239532470703,
-      "longitude": 5.016441345214844,
-      "speed": 41.0,
-      "id": "2464"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L7-1-1-184800",
-      "latitude": 47.29494857788086,
-      "longitude": 5.133118629455566,
-      "speed": 36.0,
-      "id": "2502"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L7-2-1-185700",
-      "latitude": 47.305763244628906,
-      "longitude": 5.118836879730225,
-      "speed": 38.0,
-      "id": "2504"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L7-3-1-190900",
-      "latitude": 47.31962966918945,
-      "longitude": 5.104913234710693,
-      "speed": 0.0,
-      "id": "2507"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.295597076416016,
-      "longitude": 5.024874687194824,
-      "speed": 0.0,
-      "id": "2508"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CO-4-1-184200",
-      "latitude": 47.32233810424805,
-      "longitude": 5.0677971839904785,
-      "speed": 22.0,
-      "id": "2601"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CO-1-1-192600",
-      "latitude": 47.3281135559082,
-      "longitude": 5.013313293457031,
-      "speed": 0.0,
-      "id": "2602"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CO-2-1-191500",
-      "latitude": 47.323570251464844,
-      "longitude": 4.999887466430664,
-      "speed": 19.0,
-      "id": "2603"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CO-3-1-184800",
-      "latitude": 47.30694580078125,
-      "longitude": 5.043972015380859,
-      "speed": 18.0,
-      "id": "2605"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-42-2-1-185100",
-      "latitude": 47.300811767578125,
-      "longitude": 5.018759727478027,
-      "speed": 18.0,
-      "id": "3314"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-16-3-1-190300",
-      "latitude": 47.31275177001953,
-      "longitude": 5.117215156555176,
-      "speed": 34.0,
-      "id": "3315"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-16-2-1-183300",
-      "latitude": 47.31529235839844,
-      "longitude": 5.121569633483887,
-      "speed": 18.0,
-      "id": "3503"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L9-1-1-185000",
-      "latitude": 47.331268310546875,
-      "longitude": 5.0332231521606445,
-      "speed": 6.0,
-      "id": "3601"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-13-1-1-184200",
-      "latitude": 47.33089828491211,
-      "longitude": 5.022375106811523,
-      "speed": 18.0,
-      "id": "3602"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L4-2-1-183500",
-      "latitude": 47.27639389038086,
-      "longitude": 5.021092891693115,
-      "speed": 37.0,
-      "id": "3604"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-12-5-1-180500",
-      "latitude": 47.32416915893555,
-      "longitude": 5.02451229095459,
-      "speed": 3.0,
-      "id": "3605"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-10-3-1-190400",
-      "latitude": 47.3399543762207,
-      "longitude": 4.989079475402832,
-      "speed": 19.0,
-      "id": "3606"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-13-5-1-192000",
-      "latitude": 47.31563186645508,
-      "longitude": 4.9872331619262695,
-      "speed": 0.0,
-      "id": "3609"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-13-2-1-185300",
-      "latitude": 47.33104705810547,
-      "longitude": 5.02182674407959,
-      "speed": 24.0,
-      "id": "3612"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-12-3-1-182600",
-      "latitude": 47.34502410888672,
-      "longitude": 4.9646477699279785,
-      "speed": 9.0,
-      "id": "3613"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-L9-4-1-185700",
-      "latitude": 47.35141372680664,
-      "longitude": 5.030002117156982,
-      "speed": 31.0,
-      "id": "3614"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-10-1-1-183200",
-      "latitude": 47.34711456298828,
-      "longitude": 5.044471740722656,
-      "speed": 15.0,
-      "id": "3620"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-16-4-1-184100",
-      "latitude": 47.28810501098633,
-      "longitude": 5.108644485473633,
-      "speed": 26.0,
-      "id": "3621"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.295597076416016,
-      "longitude": 5.024874687194824,
-      "speed": 0.0,
-      "id": "3622"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-12-6-1-184600",
-      "latitude": 47.32381820678711,
-      "longitude": 5.032449722290039,
-      "speed": 0.0,
-      "id": "3624"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-16-5-1-190000",
-      "latitude": 47.283721923828125,
-      "longitude": 5.101076126098633,
-      "speed": 49.0,
-      "id": "3628"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-14-1-1-184700",
-      "latitude": 47.31307601928711,
-      "longitude": 5.011620044708252,
-      "speed": 26.0,
-      "id": "3629"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-10-2-1-190000",
-      "latitude": 47.36436080932617,
-      "longitude": 5.028284072875977,
-      "speed": 38.0,
-      "id": "3630"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-15-1-1-190600",
-      "latitude": 47.30051040649414,
-      "longitude": 5.020993232727051,
-      "speed": 0.0,
-      "id": "3632"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-10-4-1-182600",
-      "latitude": 47.32778549194336,
-      "longitude": 5.013401985168457,
-      "speed": 29.0,
-      "id": "3635"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-12-1-1-190600",
-      "latitude": 47.29914855957031,
-      "longitude": 5.040353298187256,
-      "speed": 0.0,
-      "id": "3636"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-12-2-1-190400",
-      "latitude": 47.34194564819336,
-      "longitude": 4.965860366821289,
-      "speed": 23.0,
-      "id": "3638"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-12-4-1-184100",
-      "latitude": 47.31817626953125,
-      "longitude": 5.031490325927734,
-      "speed": 4.0,
-      "id": "3639"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-18-1-1-185100",
-      "latitude": 47.29838943481445,
-      "longitude": 5.038484573364258,
-      "speed": 21.0,
-      "id": "3640"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-18-2-1-185000",
-      "latitude": 47.30644989013672,
-      "longitude": 5.0341410636901855,
-      "speed": 9.0,
-      "id": "3641"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-14-2-1-185400",
-      "latitude": 47.295047760009766,
-      "longitude": 5.017451763153076,
-      "speed": 17.0,
-      "id": "3643"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-18-3-1-190700",
-      "latitude": 47.323951721191406,
-      "longitude": 5.031793117523193,
-      "speed": 0.0,
-      "id": "3644"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-18-4-1-191100",
-      "latitude": 47.28587341308594,
-      "longitude": 5.073553085327148,
-      "speed": 0.0,
-      "id": "3645"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-40-3-1-185500",
-      "latitude": 47.34164810180664,
-      "longitude": 5.074782848358154,
-      "speed": 4.0,
-      "id": "4104"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-19-2-1-185700",
-      "latitude": 47.33439636230469,
-      "longitude": 5.074331760406494,
-      "speed": 23.0,
-      "id": "4106"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-40-2-1-185500",
-      "latitude": 47.337005615234375,
-      "longitude": 5.0606689453125,
-      "speed": 35.0,
-      "id": "4107"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.28958511352539,
-      "longitude": 5.147350311279297,
-      "speed": 43.0,
-      "id": "4108"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-42-1-1-190400",
-      "latitude": 47.29697799682617,
-      "longitude": 5.022589206695557,
-      "speed": 22.0,
-      "id": "4110"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-42-3-1-190600",
-      "latitude": 47.28322982788086,
-      "longitude": 5.02043342590332,
-      "speed": 0.0,
-      "id": "4112"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-45-11-1-190800",
-      "latitude": 47.295631408691406,
-      "longitude": 5.024513244628906,
-      "speed": 0.0,
-      "id": "4210"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CITY-2-1-181400",
-      "latitude": 47.318302154541016,
-      "longitude": 5.03796911239624,
-      "speed": 18.0,
-      "id": "4601"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-CITY-3-1-190800",
-      "latitude": 47.31575393676758,
-      "longitude": 5.031924247741699,
-      "speed": 19.0,
-      "id": "4604"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-34-1-1-190000",
-      "latitude": 47.31382369995117,
-      "longitude": 5.017427444458008,
-      "speed": 15.0,
-      "id": "4701"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-31-1-1-190200",
-      "latitude": 47.27228927612305,
-      "longitude": 5.061511993408203,
-      "speed": 48.0,
-      "id": "4704"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "11-32-1-1-185500",
-      "latitude": 47.238216400146484,
-      "longitude": 5.058997631072998,
-      "speed": 58.0,
-      "id": "4705"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.36573791503906,
-      "longitude": 5.027094841003418,
-      "speed": 35.0,
-      "id": "4706"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.35844421386719,
-      "longitude": 5.055245876312256,
-      "speed": 0.0,
-      "id": "4708"
-    }
-  },
-  {
-    "trip": {
-      "trip_id": "",
-      "latitude": 47.32084274291992,
-      "longitude": 5.023616790771484,
-      "speed": 58.0,
-      "id": "4709"
-    }
-  }
 ]
