@@ -62,28 +62,37 @@ export class TrackerComponent implements OnInit {
   }
 
   private addMarkers(L: any): void {
-    const markers = (data as any).default;
-
-    markers.forEach((marker: any) => {
-      const lat = marker.latitude;
-      const long = marker.longitude;
-      const tripId = marker.id;
-      const timestamp = marker.timestamp;
-      const headsign = marker.headsign;
-      const line = marker.line;
-      const color = marker.color;
-      const img = marker.img;
-
-      if (lat !== undefined && long !== undefined) {
-        const leafletMarker = L.circleMarker([lat, long], {radius: this.getRadius()});
-        leafletMarker.setStyle({fillOpacity: 0.5, color: color});
-        leafletMarker.bindPopup(`${img} ${line} | ${headsign}<br>ID: ${tripId}<br>${timestamp}`);
-        this.markerLayer.addLayer(leafletMarker);
-        this.addSvgMarker(L, [lat, long], img);
-      } else {
-        console.warn('Marker has undefined coordinates:', marker);
+    try {
+      const markers = (data as any).default;
+  
+      if (!Array.isArray(markers)) {
+        console.error('Markers data is not an array:', markers);
+        return;
       }
-    });
+  
+      markers.forEach((marker: any) => {
+        const lat = marker.latitude;
+        const long = marker.longitude;
+        const tripId = marker.id;
+        const timestamp = marker.timestamp;
+        const headsign = marker.headsign;
+        const line = marker.line;
+        const color = marker.color;
+        const img = marker.img;
+  
+        if (lat !== undefined && long !== undefined) {
+          const leafletMarker = L.circleMarker([lat, long], {radius: this.getRadius()});
+          leafletMarker.setStyle({fillOpacity: 0.5, color: color});
+          leafletMarker.bindPopup(`${img} ${line} | ${headsign}<br>ID: ${tripId}<br>${timestamp}`);
+          this.markerLayer.addLayer(leafletMarker);
+          this.addSvgMarker(L, [lat, long], img);
+        } else {
+          console.warn('Marker has undefined coordinates:', marker);
+        }
+      });
+    } catch (error) {
+      console.error('Error adding markers:', error);
+    }
   }
 
   private addSvgMarker(L: any, position: [number, number], svgContent: string): void {
