@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import * as data from '../../../history.json';
+import { Component, OnInit, HostListener } from '@angular/core';
+import * as data from '../../../../history.json';
 
 @Component({
   selector: 'app-tracker',
@@ -31,15 +31,15 @@ export class TrackerComponent implements OnInit {
   private initMap(L: any): void {
     // Récupérer les paramètres de vue depuis l'URL
     const urlParams = new URLSearchParams(window.location.search);
-    const lat = parseFloat(urlParams.get('lat') || '47.3220');
-    const lng = parseFloat(urlParams.get('lng') || '5.0446');
-    const zoom = parseInt(urlParams.get('zoom') || '13', 10);
+    const lat = parseFloat(urlParams.get('lat') || '47.30321423088468');
+    const lng = parseFloat(urlParams.get('lng') || '5.052337646484376');
+    const zoom = parseInt(urlParams.get('zoom') || '12', 10);
 
     this.map = L.map('map').setView([lat, lng], zoom);
     console.log('Map initialized:', this.map);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(this.map);
 
     this.markerLayer = L.layerGroup().addTo(this.map);
@@ -48,6 +48,11 @@ export class TrackerComponent implements OnInit {
     // Écouteurs d'événements pour détecter les changements de vue de carte
     this.map.on('moveend', () => {
       this.updateUrlWithMapView();
+    });
+
+    // Écouteur pour détecter les changements de niveau de zoom
+    this.map.on('zoomend', () => {
+      this.updateMarkers(L);
     });
 
     // Initialiser les paramètres d'URL après 3 secondes
@@ -65,15 +70,58 @@ export class TrackerComponent implements OnInit {
       const tripId = marker.id;
       const timestamp = marker.timestamp;
       const headsign = marker.headsign;
+      const line = marker.line;
+      const color = marker.color;
+      const img = marker.img;
 
       if (lat !== undefined && long !== undefined) {
-        const leafletMarker = L.marker([lat, long]);
-        leafletMarker.bindPopup(`ID: ${tripId}<br>${headsign}<br>${timestamp}`);
+        const leafletMarker = L.circleMarker([lat, long], {radius: this.getRadius()});
+        leafletMarker.setStyle({fillOpacity: 0.5, color: color});
+        leafletMarker.bindPopup(`${img} ${line} | ${headsign}<br>ID: ${tripId}<br>${timestamp}`);
         this.markerLayer.addLayer(leafletMarker);
+        this.addSvgMarker(L, [lat, long], img);
       } else {
         console.warn('Marker has undefined coordinates:', marker);
       }
     });
+  }
+
+  private addSvgMarker(L: any, position: [number, number], svgContent: string): void {
+    const svgIcon = L.divIcon({
+      html: svgContent,
+      className: '',
+      iconSize: [this.getRadius(), this.getRadius()],
+      iconAnchor: [20, 20]
+    });
+    L.marker(position, { icon: svgIcon }).addTo(this.markerLayer);
+  }
+
+  private updateMarkers(L: any): void {
+    this.markerLayer.clearLayers();
+    this.addMarkers(L);
+  }
+
+  private getRadius(): number {
+    const zoom = this.map.getZoom();
+
+    switch (zoom) {
+      case 12:
+        return 5;
+      case 13:
+        return 6;
+      case 14:
+        return 7;
+      case 15:
+        return 8;
+      case 16:
+        return 9;
+      case 17:
+        return 10;
+      case 18:
+        return 11;
+      default:
+        return 4;
+    }
   }
 
   private updateUrlWithMapView(): void {

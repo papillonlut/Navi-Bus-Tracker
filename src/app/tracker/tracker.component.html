@@ -1,14 +1,13 @@
 <style>
     /* Assurez-vous que la carte occupe une taille appropriée */
-    .map-container {
-        height: 800px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
+    #map {
+        height: 660px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
         width: auto;   /* La carte occupera toute la largeur du conteneur parent */
-        @media (max-width: 767px) {
-            height: 700px;
-        }
+        z-index: 1;
     }
 </style>
 
-<div class="p-4 md:ml-64 md:translate-x-0 max-md:mb-16">
-    <div id="map" class="map-container"></div>
+<div id="map" class="md:ml-64"></div>
+<div class="p-4  md:translate-x-0 max-md:mb-16">
 </div>
+
