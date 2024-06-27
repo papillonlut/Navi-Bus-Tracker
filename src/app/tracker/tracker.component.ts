@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import * as data from '../../../../history.json';
+import * as data from '../../../history.json';
 
 @Component({
   selector: 'app-tracker',
