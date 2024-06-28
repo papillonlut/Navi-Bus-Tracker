@@ -1,0 +1,1192 @@
+[
+    {
+        "id": "1002",
+        "latitude": 47.32539367675781,
+        "longitude": 5.039161682128906,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1004",
+        "latitude": 47.31389617919922,
+        "longitude": 5.069205284118652,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1008",
+        "latitude": 47.32876968383789,
+        "longitude": 5.054145812988281,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1010",
+        "latitude": 47.31389617919922,
+        "longitude": 5.110167503356934,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719557288,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1011",
+        "latitude": 47.31361389160156,
+        "longitude": 5.0944695472717285,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719557348,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1012",
+        "latitude": 47.30185317993164,
+        "longitude": 5.015172958374023,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1013",
+        "latitude": 47.35377883911133,
+        "longitude": 5.046239852905273,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1015",
+        "latitude": 47.32238006591797,
+        "longitude": 5.065284252166748,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1016",
+        "latitude": 47.31940841674805,
+        "longitude": 5.068229675292969,
+        "headsign": "Foch Gare",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1018",
+        "latitude": 47.29457092285156,
+        "longitude": 5.006500244140625,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719557168,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1019",
+        "latitude": 47.36556625366211,
+        "longitude": 5.046785354614258,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719557298,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1020",
+        "latitude": 47.313541412353516,
+        "longitude": 5.094862937927246,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1021",
+        "latitude": 47.32381820678711,
+        "longitude": 5.034250259399414,
+        "headsign": "DIJON Gare",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1022",
+        "latitude": 47.36220169067383,
+        "longitude": 5.04970121383667,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1023",
+        "latitude": 47.339134216308594,
+        "longitude": 5.044583797454834,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1024",
+        "latitude": 47.317832946777344,
+        "longitude": 5.0316314697265625,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1025",
+        "latitude": 47.3468017578125,
+        "longitude": 5.045250415802002,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1026",
+        "latitude": 47.3253288269043,
+        "longitude": 5.038972854614258,
+        "headsign": "QUETIGNY Centre",
+        "timestamp": 1719557368,
+        "line": "T1",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1028",
+        "latitude": 47.30559539794922,
+        "longitude": 5.0236310958862305,
+        "headsign": "DIJON Valmy",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "1032",
+        "latitude": 47.31592559814453,
+        "longitude": 5.0302653312683105,
+        "headsign": "CHENOVE Centre",
+        "timestamp": 1719557368,
+        "line": "T2",
+        "color": "#ab0070",
+        "img": ""
+    },
+    {
+        "id": "2323",
+        "latitude": 47.32090377807617,
+        "longitude": 5.105673313140869,
+        "headsign": "QUETIGNY Europe",
+        "timestamp": 1719557358,
+        "line": "L7",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2324",
+        "latitude": 47.30626678466797,
+        "longitude": 5.118095397949219,
+        "headsign": "CHEVIGNY",
+        "timestamp": 1719557358,
+        "line": "L7",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2325",
+        "latitude": 47.33014678955078,
+        "longitude": 5.070724964141846,
+        "headsign": "Marmuzots",
+        "timestamp": 1719557358,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2327",
+        "latitude": 47.3109245300293,
+        "longitude": 5.0389723777771,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557358,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2401",
+        "latitude": 47.32307052612305,
+        "longitude": 4.99811315536499,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557358,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2402",
+        "latitude": 47.296669006347656,
+        "longitude": 5.0045013427734375,
+        "headsign": "MARSANNAY Portes du Sud",
+        "timestamp": 1719557358,
+        "line": "L4",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2403",
+        "latitude": 47.28521728515625,
+        "longitude": 5.004141807556152,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719557368,
+        "line": "L4",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2407",
+        "latitude": 47.3213996887207,
+        "longitude": 5.029786586761475,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719557348,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2410",
+        "latitude": 47.32268142700195,
+        "longitude": 5.031015872955322,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719557368,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2411",
+        "latitude": 47.32453536987305,
+        "longitude": 5.0328168869018555,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719557348,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2412",
+        "latitude": 47.342796325683594,
+        "longitude": 4.999019145965576,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719557358,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2414",
+        "latitude": 47.31533432006836,
+        "longitude": 5.037633419036865,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719557358,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2415",
+        "latitude": 47.31233215332031,
+        "longitude": 5.063050746917725,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719557358,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2416",
+        "latitude": 47.31538391113281,
+        "longitude": 5.039660930633545,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719557368,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2417",
+        "latitude": 47.34269332885742,
+        "longitude": 5.000669002532959,
+        "headsign": "Universit\u00e9",
+        "timestamp": 1719557368,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2419",
+        "latitude": 47.342960357666016,
+        "longitude": 5.000443935394287,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719557368,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2421",
+        "latitude": 47.31031036376953,
+        "longitude": 5.072727680206299,
+        "headsign": "TALANT Dullin",
+        "timestamp": 1719557368,
+        "line": "L5",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2422",
+        "latitude": 47.33963394165039,
+        "longitude": 5.067153453826904,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557358,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2423",
+        "latitude": 47.32209777832031,
+        "longitude": 5.02847146987915,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719557358,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2424",
+        "latitude": 47.3397102355957,
+        "longitude": 5.067473411560059,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557198,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2429",
+        "latitude": 47.32719039916992,
+        "longitude": 5.041251182556152,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557348,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2430",
+        "latitude": 47.350521087646484,
+        "longitude": 5.051849365234375,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557358,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2431",
+        "latitude": 47.32642364501953,
+        "longitude": 5.04487943649292,
+        "headsign": "LONGVIC",
+        "timestamp": 1719557368,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2432",
+        "latitude": 47.321468353271484,
+        "longitude": 5.00007438659668,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719557358,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2433",
+        "latitude": 47.31650924682617,
+        "longitude": 5.044258117675781,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557368,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2434",
+        "latitude": 47.33205032348633,
+        "longitude": 5.068915843963623,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557358,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2437",
+        "latitude": 47.3092155456543,
+        "longitude": 5.045873165130615,
+        "headsign": "LONGVIC",
+        "timestamp": 1719557358,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2438",
+        "latitude": 47.292381286621094,
+        "longitude": 5.057614803314209,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557368,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2441",
+        "latitude": 47.3393669128418,
+        "longitude": 5.053281784057617,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557348,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2443",
+        "latitude": 47.33156967163086,
+        "longitude": 5.068758487701416,
+        "headsign": "Epirey Capnord",
+        "timestamp": 1719557368,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2444",
+        "latitude": 47.32255554199219,
+        "longitude": 5.02146577835083,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557368,
+        "line": "L3",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2447",
+        "latitude": 47.2841682434082,
+        "longitude": 5.0611252784729,
+        "headsign": "LONGVIC",
+        "timestamp": 1719557368,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2448",
+        "latitude": 47.318695068359375,
+        "longitude": 5.0508012771606445,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557348,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2451",
+        "latitude": 47.3156852722168,
+        "longitude": 5.0428266525268555,
+        "headsign": "Chicago",
+        "timestamp": 1719557358,
+        "line": "L8",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2452",
+        "latitude": 47.336509704589844,
+        "longitude": 5.09147310256958,
+        "headsign": "Chicago",
+        "timestamp": 1719557118,
+        "line": "L8",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2453",
+        "latitude": 47.31591796875,
+        "longitude": 5.044876575469971,
+        "headsign": "ST-APOLLINAIRE Val Sully",
+        "timestamp": 1719557368,
+        "line": "L8",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2455",
+        "latitude": 47.31061935424805,
+        "longitude": 5.015599250793457,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719557358,
+        "line": "L4",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2456",
+        "latitude": 47.29938888549805,
+        "longitude": 5.056273460388184,
+        "headsign": "ST-APOLLINAIRE Val Sully",
+        "timestamp": 1719557368,
+        "line": "L8",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2457",
+        "latitude": 47.3359375,
+        "longitude": 5.051677227020264,
+        "headsign": "LONGVIC",
+        "timestamp": 1719557368,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2459",
+        "latitude": 47.323238372802734,
+        "longitude": 4.998295783996582,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557348,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2461",
+        "latitude": 47.33399200439453,
+        "longitude": 5.020200252532959,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557358,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2462",
+        "latitude": 47.35085678100586,
+        "longitude": 5.050846576690674,
+        "headsign": "LONGVIC",
+        "timestamp": 1719557368,
+        "line": "L6",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2464",
+        "latitude": 47.31827163696289,
+        "longitude": 5.030118942260742,
+        "headsign": "MARSANNAY Portes du Sud",
+        "timestamp": 1719557368,
+        "line": "L4",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2501",
+        "latitude": 47.29763412475586,
+        "longitude": 5.125473499298096,
+        "headsign": "QUETIGNY Europe",
+        "timestamp": 1719557358,
+        "line": "L7",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "2506",
+        "latitude": 47.3142204284668,
+        "longitude": 5.007957935333252,
+        "headsign": "Marmuzots",
+        "timestamp": 1719557368,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2604",
+        "latitude": 47.30513000488281,
+        "longitude": 5.052004814147949,
+        "headsign": "Marmuzots",
+        "timestamp": 1719557348,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2605",
+        "latitude": 47.32569122314453,
+        "longitude": 5.073925495147705,
+        "headsign": "Fontaine d'Ouche",
+        "timestamp": 1719557368,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "2606",
+        "latitude": 47.330780029296875,
+        "longitude": 5.013909339904785,
+        "headsign": "Marmuzots",
+        "timestamp": 1719557368,
+        "line": "CO",
+        "color": "#00b1e6",
+        "img": ""
+    },
+    {
+        "id": "3312",
+        "latitude": 47.2879524230957,
+        "longitude": 5.063793182373047,
+        "headsign": "Les Parcs d'Oscara",
+        "timestamp": 1719557118,
+        "line": "44",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "3313",
+        "latitude": 47.33467102050781,
+        "longitude": 5.1060333251953125,
+        "headsign": "Gr\u00e9silles Trimolet",
+        "timestamp": 1719557188,
+        "line": "43",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "3314",
+        "latitude": 47.299232482910156,
+        "longitude": 5.022490978240967,
+        "headsign": "Les Ateliers",
+        "timestamp": 1719557358,
+        "line": "45",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "3315",
+        "latitude": 47.30845260620117,
+        "longitude": 5.085945129394531,
+        "headsign": "QUETIGNY All\u00e9es Cavali\u00e8res",
+        "timestamp": 1719557368,
+        "line": "16",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3501",
+        "latitude": 47.27402877807617,
+        "longitude": 5.119553089141846,
+        "headsign": "QUETIGNY All\u00e9es Cavali\u00e8res",
+        "timestamp": 1719557368,
+        "line": "16",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3503",
+        "latitude": 47.31756591796875,
+        "longitude": 5.108001708984375,
+        "headsign": "NEUILLY-CRIMOLOIS",
+        "timestamp": 1719557368,
+        "line": "16",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3601",
+        "latitude": 47.32490921020508,
+        "longitude": 5.031803607940674,
+        "headsign": "LONGVIC Carm\u00e9lites",
+        "timestamp": 1719557368,
+        "line": "18",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3602",
+        "latitude": 47.3321418762207,
+        "longitude": 5.011740684509277,
+        "headsign": "AHUY",
+        "timestamp": 1719557348,
+        "line": "10",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3605",
+        "latitude": 47.27850341796875,
+        "longitude": 5.009891033172607,
+        "headsign": "MARSANNAY Portes du Sud",
+        "timestamp": 1719557358,
+        "line": "L4",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "3606",
+        "latitude": 47.35459518432617,
+        "longitude": 5.051633358001709,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719557358,
+        "line": "L9",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "3608",
+        "latitude": 47.33272171020508,
+        "longitude": 5.010207176208496,
+        "headsign": "TALANT Citadelle",
+        "timestamp": 1719557368,
+        "line": "10",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3609",
+        "latitude": 47.33960723876953,
+        "longitude": 5.020522117614746,
+        "headsign": "FONTAINE Village",
+        "timestamp": 1719557358,
+        "line": "13",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3610",
+        "latitude": 47.31707000732422,
+        "longitude": 5.118673324584961,
+        "headsign": "NEUILLY-CRIMOLOIS",
+        "timestamp": 1719557308,
+        "line": "16",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3611",
+        "latitude": 47.3206787109375,
+        "longitude": 5.009432315826416,
+        "headsign": "FONTAINE Village",
+        "timestamp": 1719557368,
+        "line": "13",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3612",
+        "latitude": 47.334659576416016,
+        "longitude": 5.023451328277588,
+        "headsign": "Motte Giron",
+        "timestamp": 1719557358,
+        "line": "13",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3615",
+        "latitude": 47.28153610229492,
+        "longitude": 5.00857400894165,
+        "headsign": "Charet",
+        "timestamp": 1719557348,
+        "line": "14",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3616",
+        "latitude": 47.26747131347656,
+        "longitude": 4.989713191986084,
+        "headsign": "Charet",
+        "timestamp": 1719557328,
+        "line": "14",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3618",
+        "latitude": 47.32407760620117,
+        "longitude": 5.033522129058838,
+        "headsign": "Parc de la Colombi\u00e8re",
+        "timestamp": 1719557358,
+        "line": "12",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3621",
+        "latitude": 47.33979034423828,
+        "longitude": 5.038976192474365,
+        "headsign": "AHUY",
+        "timestamp": 1719557358,
+        "line": "10",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3622",
+        "latitude": 47.269596099853516,
+        "longitude": 5.007620334625244,
+        "headsign": "PERRIGNY",
+        "timestamp": 1719557358,
+        "line": "15",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3624",
+        "latitude": 47.309715270996094,
+        "longitude": 5.016215801239014,
+        "headsign": "MARSANNAY Charon",
+        "timestamp": 1719557358,
+        "line": "14",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3625",
+        "latitude": 47.33991241455078,
+        "longitude": 4.972857475280762,
+        "headsign": "Parc de la Colombi\u00e8re",
+        "timestamp": 1719557348,
+        "line": "12",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3627",
+        "latitude": 47.31935119628906,
+        "longitude": 5.0312581062316895,
+        "headsign": "PLOMBIERES",
+        "timestamp": 1719557358,
+        "line": "12",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3628",
+        "latitude": 47.34716796875,
+        "longitude": 5.038330078125,
+        "headsign": "TALANT Citadelle",
+        "timestamp": 1719557368,
+        "line": "10",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3630",
+        "latitude": 47.313018798828125,
+        "longitude": 5.040229797363281,
+        "headsign": "Parc de la Colombi\u00e8re",
+        "timestamp": 1719557368,
+        "line": "12",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3631",
+        "latitude": 47.2795295715332,
+        "longitude": 5.1138081550598145,
+        "headsign": "NEUILLY-CRIMOLOIS",
+        "timestamp": 1719557358,
+        "line": "16",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3632",
+        "latitude": 47.314422607421875,
+        "longitude": 5.001324653625488,
+        "headsign": "Motte Giron",
+        "timestamp": 1719557368,
+        "line": "13",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3633",
+        "latitude": 47.283836364746094,
+        "longitude": 5.043992042541504,
+        "headsign": "LONGVIC Carm\u00e9lites",
+        "timestamp": 1719557358,
+        "line": "18",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3634",
+        "latitude": 47.33793640136719,
+        "longitude": 5.031705856323242,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719557358,
+        "line": "L9",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "3635",
+        "latitude": 47.33584213256836,
+        "longitude": 4.983459949493408,
+        "headsign": "PLOMBIERES",
+        "timestamp": 1719557368,
+        "line": "12",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3638",
+        "latitude": 47.28302764892578,
+        "longitude": 5.009150981903076,
+        "headsign": "Carraz",
+        "timestamp": 1719557368,
+        "line": "15",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3639",
+        "latitude": 47.356117248535156,
+        "longitude": 5.027683258056641,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557368,
+        "line": "L9",
+        "color": "#e7619c",
+        "img": ""
+    },
+    {
+        "id": "3640",
+        "latitude": 47.301551818847656,
+        "longitude": 5.0399274826049805,
+        "headsign": "PLOMBIERES",
+        "timestamp": 1719557358,
+        "line": "12",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3641",
+        "latitude": 47.314022064208984,
+        "longitude": 5.033160209655762,
+        "headsign": "Darcy",
+        "timestamp": 1719557358,
+        "line": "18",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3642",
+        "latitude": 47.28554916381836,
+        "longitude": 5.071897506713867,
+        "headsign": "Darcy",
+        "timestamp": 1719557348,
+        "line": "18",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "3701",
+        "latitude": 47.30625915527344,
+        "longitude": 4.99772834777832,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719557348,
+        "line": "34",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "3702",
+        "latitude": 47.31401062011719,
+        "longitude": 5.019223690032959,
+        "headsign": "Sainte-Anne",
+        "timestamp": 1719557348,
+        "line": "34",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "3703",
+        "latitude": 47.31629180908203,
+        "longitude": 5.026233673095703,
+        "headsign": "Montagne de Larrey",
+        "timestamp": 1719557368,
+        "line": "35",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4102",
+        "latitude": 47.29315185546875,
+        "longitude": 5.150593280792236,
+        "headsign": "Grand March\u00e9",
+        "timestamp": 1719557188,
+        "line": "41",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4103",
+        "latitude": 47.32787322998047,
+        "longitude": 5.08539342880249,
+        "headsign": "Gr\u00e9silles Trimolet",
+        "timestamp": 1719557338,
+        "line": "19",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "4104",
+        "latitude": 47.3367919921875,
+        "longitude": 5.078453063964844,
+        "headsign": "Gr\u00e9silles Trimolet",
+        "timestamp": 1719557358,
+        "line": "19",
+        "color": "#005da7",
+        "img": ""
+    },
+    {
+        "id": "4107",
+        "latitude": 47.31063461303711,
+        "longitude": 5.106200218200684,
+        "headsign": "Grand March\u00e9",
+        "timestamp": 1719557348,
+        "line": "36",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4108",
+        "latitude": 47.352516174316406,
+        "longitude": 5.064029216766357,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557368,
+        "line": "40",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4110",
+        "latitude": 47.30056381225586,
+        "longitude": 5.019765853881836,
+        "headsign": "Les Ateliers",
+        "timestamp": 1719557368,
+        "line": "42",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4111",
+        "latitude": 47.294288635253906,
+        "longitude": 5.004580974578857,
+        "headsign": "CHENOVE C. Cial",
+        "timestamp": 1719557368,
+        "line": "42",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4603",
+        "latitude": 47.31867980957031,
+        "longitude": 5.042210102081299,
+        "headsign": "Monge Cit\u00e9 de la gastronomie",
+        "timestamp": 1719557368,
+        "line": "CITY",
+        "color": "#e43516",
+        "img": ""
+    },
+    {
+        "id": "4702",
+        "latitude": 47.328433990478516,
+        "longitude": 5.050845623016357,
+        "headsign": "Toison d'Or",
+        "timestamp": 1719557348,
+        "line": "40",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4703",
+        "latitude": 47.334041595458984,
+        "longitude": 5.060014724731445,
+        "headsign": "R\u00e9publique",
+        "timestamp": 1719557368,
+        "line": "40",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4704",
+        "latitude": 47.23931121826172,
+        "longitude": 5.114593505859375,
+        "headsign": "LONGVIC Centre",
+        "timestamp": 1719557348,
+        "line": "31",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4705",
+        "latitude": 47.27773666381836,
+        "longitude": 5.062424659729004,
+        "headsign": "LONGVIC Centre",
+        "timestamp": 1719557358,
+        "line": "32",
+        "color": "#ee8250",
+        "img": ""
+    },
+    {
+        "id": "4706",
+        "latitude": 47.331092834472656,
+        "longitude": 5.027243614196777,
+        "headsign": "Darcy",
+        "timestamp": 1719557358,
+        "line": "30",
+        "color": "#ee8250",
+        "img": ""
+    }
+]

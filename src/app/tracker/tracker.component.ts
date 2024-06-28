@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import * as data from '../../../history.json';
+import * as data from './history.json';
 
 @Component({
   selector: 'app-tracker',
@@ -79,11 +79,11 @@ export class TrackerComponent implements OnInit {
         const line = marker.line;
         const color = marker.color;
         const img = marker.img;
-  
+
         if (lat !== undefined && long !== undefined) {
           const leafletMarker = L.circleMarker([lat, long], {radius: this.getRadius()});
           leafletMarker.setStyle({fillOpacity: 0.5, color: color});
-          leafletMarker.bindPopup(`${img} ${line} | ${headsign}<br>ID: ${tripId}<br>${timestamp}`);
+          leafletMarker.bindPopup(`${img} ${line} | ${headsign}<br>Bus N° ${tripId}`);
           this.markerLayer.addLayer(leafletMarker);
           this.addSvgMarker(L, [lat, long], img);
         } else {
