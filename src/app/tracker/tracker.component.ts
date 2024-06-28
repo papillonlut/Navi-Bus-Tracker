@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import * as data from './history.json';
+import { time } from 'node:console';
 
 @Component({
   selector: 'app-tracker',
@@ -39,7 +40,7 @@ export class TrackerComponent implements OnInit {
     console.log('Map initialized:', this.map);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      attribution: '&copy; <a href="https://papillonlut.github.io">Papillonlut (Antony)</a>'
     }).addTo(this.map);
 
     this.markerLayer = L.layerGroup().addTo(this.map);
@@ -79,13 +80,32 @@ export class TrackerComponent implements OnInit {
         const line = marker.line;
         const color = marker.color;
         const img = marker.img;
-
+        
         if (lat !== undefined && long !== undefined) {
           const leafletMarker = L.circleMarker([lat, long], {radius: this.getRadius()});
           leafletMarker.setStyle({fillOpacity: 0.5, color: color});
           leafletMarker.bindPopup(`${img} ${line} | ${headsign}<br>Bus N° ${tripId}`);
           this.markerLayer.addLayer(leafletMarker);
           this.addSvgMarker(L, [lat, long], img);
+
+          let date: Date = new Date(timestamp * 1000);
+          let timestampElement = document.getElementById('timestamp');
+          if (timestampElement) {
+            let formattedDate = date.toLocaleString('fr-FR', {
+              weekday: 'long',
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit',
+              hour12: false // Use 24-hour format
+            });
+          
+            timestampElement.textContent = "Mis à jour : " + formattedDate;
+          } else {
+            console.error('Element with ID "timestamp" not found');
+          }
         } else {
           console.warn('Marker has undefined coordinates:', marker);
         }
@@ -94,7 +114,7 @@ export class TrackerComponent implements OnInit {
       console.error('Error adding markers:', error);
     }
   }
-
+  
   private addSvgMarker(L: any, position: [number, number], svgContent: string): void {
     const svgIcon = L.divIcon({
       html: svgContent,
