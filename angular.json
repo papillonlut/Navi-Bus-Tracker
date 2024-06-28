@@ -21,6 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/img/bus.jpg",
               "src/img/logo.png",
               "src/img/minecraft_title.png",
               {
@@ -81,7 +82,7 @@
           "defaultConfiguration": "development",
           "options": {
             "port": 4200,
-            "host": "192.168.0.1"
+            "host": "localhost"
           }
         },
         "extract-i18n": {
@@ -114,6 +115,9 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": false,
+    "cache": {
+      "enabled": true
+    }
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import * as data from './history.json';
+import * as data from '../../../../history.json';
 import { time } from 'node:console';
 
 @Component({
@@ -99,7 +99,7 @@ export class TrackerComponent implements OnInit {
               hour: '2-digit',
               minute: '2-digit',
               second: '2-digit',
-              hour12: false // Use 24-hour format
+              hour12: false
             });
           
             timestampElement.textContent = "Mis à jour : " + formattedDate;
@@ -165,8 +165,6 @@ export class TrackerComponent implements OnInit {
 
       const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
       window.history.replaceState({}, '', newUrl);
-
-      console.log('URL updated with map view:', newUrl);
     }
   }
 }
