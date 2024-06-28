@@ -28,6 +28,7 @@
     "express": "^4.18.2",
     "flowbite": "^2.3.0",
     "leaflet": "^1.9.4",
+    "nodejs": "^0.0.0",
     "postcss": "^8.4.38",
     "rxjs": "~7.8.0",
     "socket.io-client": "^4.7.5",
